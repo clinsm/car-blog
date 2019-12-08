@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+}
+.navbar{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 10;
+  -webkit-box-shadow: inset 1px 32px 35px -26px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 1px 32px 35px -26px rgba(0,0,0,0.75);
+  box-shadow: inset 1px 32px 35px -26px rgba(0,0,0,0.75);
+}
+/*Menu icon*/
+.menu{
+  width: 5%;
+  display: inline-block;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: #E0E0E0;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 2px;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*place holder*/
+.ph{
+  width: 35%;
+}
+
+/*blog logo*/
+.logo{
+  width: 20%;
+}
+
+/*place holder*/
+.plh{
+  width: 10%;
+}
+/*search containment*/
+.searchbox{
+  width: 25%;
+  background: gray;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #E0E0E0;
+}
+.search{
+  width: 90%;
+  padding: 2px;
+  font-size: 20px;
+  background-color: #E0E0E0;
+  border: 0;
+}
+.searchbox img{
+  width:10%;
+}
+
+/*account containment*/
+.account{
+  width: 5%;
+}
+.account img{
+}
+
+/*Begining of main body*/
+.section1 img{
+}
+.section1{
+  height: 600px;
+  overflow: hidden;
+  background: black;
+    text-align: center;
+}
+/*in the first section of main body*/
+.welcome{
+  position: absolute;
+}
